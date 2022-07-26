@@ -1,0 +1,30 @@
+{
+  "name": "i-like-toasts",
+  "private": false,
+  "version": "0.0.9",
+  "type": "module",
+  "main": "./dist/i-like-toasts.umd.js",
+  "module": "./dist/i-like-toasts.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/i-like-toasts.es.js",
+      "require": "./dist/i-like-toasts.umd.js"
+    },
+    "./index.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "vite": "^3.0.0"
+  }
+}

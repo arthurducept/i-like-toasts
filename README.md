@@ -1,0 +1,1 @@
+# PoC for npm component with Vue 3 + Vite
